@@ -1,2 +1,2 @@
 # COP-3223C
-COP 3223 class
+COP 3223C - Introduction to C Programming

@@ -5,7 +5,7 @@ COP 3223 */
 
 #include <stdio.h>
 
-int main(void){
+int main(void) {
     int grade1 = 75;
     int grade2 = 80;
     //calculate the avg in 5 separate ways

@@ -16,15 +16,15 @@ int main (void) {
     scanf("%ld %ld %ld %ld %ld", &a, &b, &c, &d, &e);
 
     // outputing the numbers
-    printf("You entered: %ld, %ld, %ld, %ld, %ld.\n", a, b, c, d, e);
+    printf("You entered: %ld, %ld, %ld, %ld, %ld\n", a, b, c, d, e);
 
     // sum and print sum
     sum = a + b + c + d + e;
-    printf("The sum of the numbers you entered is: %ld.\n", sum);
+    printf("The sum of the numbers you entered is: %ld\n", sum);
 
     // average and print average
     avg = (float)(sum) / 5;
-    printf("The average is: %.2f.\n", avg);
+    printf("The average is: %.2f\n", avg);
 
     return 0;
 }

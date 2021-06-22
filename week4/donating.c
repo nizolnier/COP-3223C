@@ -13,7 +13,7 @@ int main () {
     while (answer == 'y' || answer == 'Y') {
         printf("Enter the amount of your donation.\n");
         scanf("%lf", &value);
-        //total = total + value;
+        // total = total + value;
         total += value;
         printf("Does anyone have any money?\n");
         scanf("%c%c", &dummy, &answer);

@@ -1,0 +1,6 @@
+5
+Abby 6
+Jane 4
+Madison 12
+Sarah 11
+Zoe 8

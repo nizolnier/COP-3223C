@@ -1,6 +1,6 @@
 /* Nicole Zolnier
 Reads in numbers into an array and prints them out in reverse order
-6/22/21  
+6/27/21  
 COP 3223 */
 
 #include <stdio.h>

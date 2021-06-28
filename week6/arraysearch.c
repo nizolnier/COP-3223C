@@ -10,7 +10,7 @@ COP 3223 */
 #define SIZE 10
 
 int main() {
-    int index, temp, numbers[SIZE];
+    int index, numbers[SIZE];
     srand(time(0));
     // fill array with number 0-99
     for (index = 0; index < SIZE; index++)

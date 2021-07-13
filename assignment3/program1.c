@@ -14,16 +14,14 @@ int main (void) {
     // seeding the random numbers
     srand(time(0));
 
-    // looping the array to fill it with random numbers
-    for (i = 0; i < SIZE; i++) {
-        numbers[i] = rand() % 100;
-    }
-
     // nice warning for the user to understand what are these numbers printing out of nowhere
     printf("This array contains: ");
 
-    // looping to print the numbers :)
+    // looping the array to fill it with random numbers from 1 to 100 and to print the numbers
     for (i = 0; i < SIZE; i++) {
+        // this fills the current number of the loop with a rand number
+        numbers[i] = rand() % 100 + 1;
+        // this prints :)
         printf("%d ", numbers[i]);
     }
 

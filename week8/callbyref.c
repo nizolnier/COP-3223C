@@ -7,7 +7,7 @@ COP 3223 */
 
 void swap (int *x, int *y);
 
-int main(){
+int main() {
 	
 	//local variable definition
 	int a = 100;

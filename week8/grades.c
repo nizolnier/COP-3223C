@@ -43,9 +43,7 @@ int main() {
 // pre-condition: grade must be a A, B, C, D, or F
 // post-condition: a corresponding integer from 0 to 4, based on the grade that will be returned
 int Comp_Grade(char grade){
-	
 	// return the appropriate integer for each grade.
-	
 	if(grade == 'A')
 		return 4;
 	else if (grade == 'B')
